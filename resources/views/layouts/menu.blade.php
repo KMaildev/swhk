@@ -72,30 +72,78 @@
 
                     <li>
                         <a href="{{ route('home') }}">
-                            HOME
+                            Home
                         </a>
                     </li>
 
                     <li>
-                        <a href="#">ABOUT <i class="fas fa-chevron-down"></i></a>
+                        <a href="javascript::void(0)">
+                            About
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
                         <ul class="sub-menu">
-                            <li><a href="">Company Introduction</a></li>
-                            <li><a href="">Company History</a></li>
-                            <li><a href="">MD's Insight</a></li>
-                            <li><a href="">Our Team Members</a></li>
-                            <li><a href="">ISO Certificates</a></li>
+                            <li>
+                                <a href="{{ route('about.index') }}">
+                                    Company Introduction
+                                </a>
+                            </li>
 
+                            <li>
+                                <a href="{{ route('history') }}">
+                                    Company History
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="{{ route('md') }}">
+                                    Founder’s Message
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="{{ route('team') }}">
+                                    Our Team Members
+                                </a>
+                            </li>
                         </ul>
                     </li>
 
                     <li>
-                        <a href="">OUR NETWORK</a>
+                        <a href="javascript::void(0)">
+                            Our Network
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <ul class="sub-menu">
+                            @foreach ($countries as $country)
+                                <li>
+                                    <a href="{{ route('job.show', $country->id) }}">
+                                        {{ $country->country ?? '' }}
+                                    </a>
+                                </li>
+                            @endforeach
+                        </ul>
                     </li>
 
+
+
                     <li>
-                        <a href="{{ route('service.index') }}">
-                            SERVICES
+                        <a href="javascript::void(0)">
+                            Services
+                            <i class="fas fa-chevron-down"></i>
                         </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="{{ route('service.index') }}">
+                                    Services
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="javascript::void(0)">
+                                    Vocational Training School
+                                </a>
+                            </li>
+                        </ul>
                     </li>
 
                     <li>
@@ -106,7 +154,7 @@
 
                     <li>
                         <a href="javascript::void(0)">
-                            LABORS JOURNEY
+                            Labors Journey
                             <i class="fas fa-chevron-down"></i>
                         </a>
                         <ul class="sub-menu">
@@ -122,7 +170,7 @@
 
                     <li>
                         <a href="{{ route('contact.index') }}">
-                            CONTACT
+                            Contact
                         </a>
                     </li>
 
