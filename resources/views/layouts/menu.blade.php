@@ -56,9 +56,9 @@
         <div class="container">
             <div class="header-wrapper">
 
-                <div class="logo-menu">
+                <div class="logo-menu" style="max-width: 200px;">
                     <a href="{{ route('home') }}" class="logo">
-                        <img src="{{ asset('assets/images/logo/logo.svg') }}" alt="logo">
+                        <img src="{{ asset('data/logo.jpg') }}" alt="logo">
                     </a>
                 </div>
 
@@ -78,7 +78,7 @@
 
                     <li>
                         <a href="javascript::void(0)">
-                            About
+                            About Us
                             <i class="fas fa-chevron-down"></i>
                         </a>
                         <ul class="sub-menu">
@@ -125,10 +125,9 @@
                     </li>
 
 
-
                     <li>
                         <a href="javascript::void(0)">
-                            Services
+                            Our Services
                             <i class="fas fa-chevron-down"></i>
                         </a>
                         <ul class="sub-menu">
@@ -170,16 +169,8 @@
 
                     <li>
                         <a href="{{ route('contact.index') }}">
-                            Contact
+                            Contact Us
                         </a>
-                    </li>
-
-                    <li class="m-0 menu_info ms-0 ms-xl-3 mt-4 mt-xl-0">
-                        <i class="fa-solid call_ico fa-phone-volume"></i>
-                        <div class="call_info">
-                            <span>Call Any Time</span>
-                            <a class="d-block p-0" href="tel:+912659302003">+91 2659 302 003</a>
-                        </div>
                     </li>
                 </ul>
             </div>

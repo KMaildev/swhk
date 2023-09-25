@@ -6,8 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shwe Wutt Hmone Kha Co.,Ltd - @yield('title')</title>
-    <!-- Favicon img -->
-    <link rel="shortcut icon" href="{{ asset('assets/images/favicon.png') }}">
+
+    <meta name="keywords" content="Shwe Wutt Hmone Kha Co.,Ltd" />
+    <meta name="author" content="Shwe Wutt Hmone Kha Co.,Ltd" />
+    <meta name="robots" content="Shwe Wutt Hmone Kha Co.,Ltd" />
+    <meta name="description" content="Shwe Wutt Hmone Kha Co.,Ltd" />
+    <link rel="shortcut icon" href="{{ asset('data/logo_png.png') }}" />
+
     <!-- Bootstarp min css -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <!-- Themify icons css -->

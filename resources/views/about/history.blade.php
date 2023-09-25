@@ -19,7 +19,7 @@
                     <div class="row g-5 align-items-center">
                         <div class="col-lg-6">
                             <div class="image">
-                                <img src="assets/images/story/01.jpg" alt="image">
+                                <img src="{{ asset('data/h1.png') }}" alt="image">
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -47,24 +47,25 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="main-item pb-65">
                     <div class="row g-5 align-items-center">
                         <div class="col-lg-6">
                             <div class="item">
                                 <div class="title">
                                     <span class="primary-color left-span pb-2">2019 - 2020</span>
-                                    <h3 class="text-white text-capitalize">start the first destination</h3>
-                                    <p class="text-white pt-4">There are many variations of passages of Lorem Ipsum
-                                        available,
-                                        but the
-                                        majority have suffered alteration in some form,
-                                        by injected humour, or randomised words which don’t look even slightly</p>
+                                    <h3 class="text-white text-capitalize">
+                                        Sent to Thailand
+                                    </h3>
+                                    <p class="text-white pt-4">
+                                        More than 2500 Myanmar MOU workers sent to Thailand
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="image">
-                                <img src="assets/images/story/02.jpg" alt="image">
+                                <img src="{{ asset('data/thai.jpg') }}" alt="image">
                             </div>
                         </div>
                     </div>
@@ -74,7 +75,7 @@
                     <div class="row g-5 align-items-center">
                         <div class="col-lg-6">
                             <div class="image">
-                                <img src="assets/images/story/03.jpg" alt="image">
+                                <img src="{{ asset('data/jp.jpg') }}" alt="image">
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -83,12 +84,12 @@
                                     <span class="primary-color pb-2">
                                         2021 - 2023
                                     </span>
-                                    <h3 class="text-white text-capitalize">#1 Worlds Award winning company</h3>
-                                    <p class="text-white pt-4">There are many variations of passages of Lorem Ipsum
-                                        available,
-                                        but the
-                                        majority have suffered alteration in some form,
-                                        by injected humour, or randomised words which don’t look even slightly</p>
+                                    <h3 class="text-white text-capitalize">
+                                        Sent To Malaysia & Japan
+                                    </h3>
+                                    <p class="text-white pt-4">
+                                        More than 3000 Myanmar MOU workers sent to Malaysia & Japan
+                                    </p>
                                 </div>
                             </div>
                         </div>

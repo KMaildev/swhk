@@ -1,8 +1,9 @@
 @extends('layouts.main')
-@section('title', 'Founder’s Message')
+@section('title', 'About Us')
 @section('content')
 
-    <section class="page-banner bg-image section-padding" style="background-image: url({{ asset('data/md_bg.jpg') }})">
+    <section class="page-banner bg-image section-padding"
+        style="background-image: url({{ asset('data/myanmar-featured-banner-section.jpg') }})">
         <div class="gaps-right d-none d-sm-block float-bob-x">
             <img src="{{ asset('assets/images/shape/gaps-primary.png') }}" alt="">
         </div>
@@ -10,96 +11,290 @@
             <img src="{{ asset('assets/images/shape/gaps-primary.png') }}" alt="">
         </div>
         <div class="container">
-            <h2 class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay=".3s">Our Team Members</h2>
+            <h2 class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay=".3s">About Us</h2>
             <div class="breadcrumb-list wow fadeInUp" data-wow-duration="1.6s" data-wow-delay=".6s">
                 <a href="{{ route('home') }}">Home :</a>
-                <span>Our Team Members</span>
+                <span>About Us</span>
             </div>
         </div>
     </section>
 
-    <section class="team-single section-padding pb-65">
+
+    <section class="page-about section-padding">
+        <div class="shape1 d-none d-lg-block float-bob-y">
+            <img src="{{ asset('assets/images/shape/shape1.png') }}" alt="">
+        </div>
+        <div class="shape2 d-none d-lg-block float-bob-y">
+            <img src="{{ asset('assets/images/shape/shape2.png') }}" alt="">
+        </div>
+
         <div class="container">
-            <div class="row g-4 justify-content-center">
-                <div class="col-lg-4 col-md-6">
+            <div class="row g-4">
+                <div class="col-lg-6">
                     <div class="image">
-                        <img src="https://static.vecteezy.com/system/resources/previews/011/459/669/original/people-avatar-icon-png.png"
-                            alt="image">
-                        <div class="team-info">
-                            <a class="d-block" href="#0"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a class="d-block" href="#0"><i class="fa-brands fa-twitter"></i></a>
-                            <a class="d-block" href="#0"><i class="fa-brands fa-linkedin-in"></i></a>
+
+                        <img src="{{ asset('data/sdagon.jpg') }}" alt="image" style="width: 100%;">
+                        <div class="sm-image d-none d-sm-block">
+                            <img src="{{ asset('data/logo_png.png') }}" alt="image">
+                        </div>
+
+                        <div class="info d-none d-sm-block">
+                            <h2><span class="count">5</span>+</h2>
+                            <span>Years Experience</span>
+                        </div>
+                        <div class="stroke-text d-none d-sm-block">
+                            <h2>since 2018</h2>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8">
-                    <div class="team_single_info">
-                        <div class="title pb-30 mb-30 bor-bottom">
-                            <h3>
-                                Founder’s Message
-                            </h3>
-                            <span class="primary-color mt-1">
+
+                <div class="col-lg-6">
+                    <div class="right-item">
+                        <div class="section-header mb-5">
+
+
+                            {{-- <h2 style="font-size: 30px;" class="wow fadeInUp" data-wow-duration="1.6s" data-wow-delay=".6s">
+                                Shwe Wutt Hmone Kha Co.,Lt
+                            </h2> --}}
+
+                            <h5 style="padding-bottom: 5px;" class="wow fadeInUp" data-wow-duration="1.3s"
+                                data-wow-delay=".3s">
                                 Shwe Wutt Hmone Kha Co.,Ltd
-                            </span>
-                        </div>
-                        <div class="info">
-                            <p style="text-align: justify">
-                                Greetings,
-                                <br><br>
-                                When we embarked on the journey of establishing Shwe Wutt Hmone Kha Co., Ltd in 2018, we
-                                envisioned more than just a company; we saw an opportunity to bridge aspirations with
-                                possibilities. Our journey began with a simple yet powerful idea – to connect Myanmar's
-                                skilled
-                                workforce with global opportunities while addressing the pressing issue of unemployment
-                                within
-                                our nation.
-                                <br><br>
-                                Our commitment to this vision has been unwavering. We understood that behind every resume,
-                                there is potential waiting to be harnessed, and behind every enterprise, there is a need for
-                                exceptional talent. This understanding fueled our determination to create an agency that
-                                transcends traditional recruitment, one that stands as a conduit for meaningful connections
-                                that
-                                transform lives and drive business success.
-                                <br><br>
-                                As founders, we navigated challenges, learned from experiences, and collaborated with
-                                remarkable individuals who share our passion. We witnessed the transformative impact of
-                                matching skilled workers with organizations that value their expertise. And in doing so, we
-                                also
-                                recognized our responsibility to contribute positively to the socio-economic fabric of our
-                                nation.
-                                <br><br>
-                                Shwe Wutt Hmone Kha Co., Ltd's journey is a story of empowerment – one that empowers
-                                workers to realize their potential on a global stage and empowers businesses with the right
-                                talent
-                                to achieve their goals. It's a story of partnerships built on trust, ethics, and excellence.
-                                It's a story
-                                that constantly reminds us of the change we can inspire when we align vision with action.
-                                <br><br>
-                                Today, as we reflect on our path, we see how far we've come, but we're also reminded of how
-                                much further we can go. Our dedication to professionalism, integrity, and innovation remains
-                                unyielding. We look ahead with enthusiasm, as we continue to evolve, expand, and adapt to
-                                the
-                                changing landscapes of both the job market and our society.
-                                <br><br>
-                                To the aspiring job seekers, our esteemed clients, and the dedicated team that fuels our
-                                progress
-                                – thank you for being part of our narrative. Together, we are not just shaping a company; we
-                                are
-                                shaping futures and shaping a legacy.
-                                <br><br>
-                                With utmost gratitude and excitement for the journey ahead,
-                                <br><br>
-                                Mrs.Ei Ei Khaing
-                                <br>
-                                Founder
-                                <br>
-                                Shwe Wutt Hmone Kha Co., Ltd
+                            </h5>
+
+                            <h2 class="wow fadeInUp" data-wow-duration="1.6s" data-wow-delay=".6s">
+                                Succeed with us
+                            </h2>
+
+                            <h5 style="padding-top: 15px;" class="wow fadeInUp" data-wow-duration="1.3s"
+                                data-wow-delay=".3s">
+                                “Empowering Futures, Connecting Worlds”
+                            </h5>
+
+                            <br>
+                            <h5 style="color: black;">
+                                Introduction
+                            </h5>
+                            <p style="text-align: justify; margin-top: 0px;" class="wow fadeInUp" data-wow-duration="1.9s"
+                                data-wow-delay=".9s">
+                                Shwe Wutt Hmone Kha Co., Ltd (Overseas Myanmar Manpower Employment Agency) was
+                                founded in 2018, emerging as a distinguished and expertly managed international manpower
+                                recruitment consultant. With a core focus on Thailand, Malaysia, and Japan job markets, we
+                                deliver premium recruitment services to diverse industries. Drawing from our extensive
+                                recruitment experience, we cater to various employment levels as per our clients' demands
+                                across
+                                multiple sectors. These include poultry processing, food and beverages production, wood
+                                processing, plastics and rubber manufacturing, leather production, construction, hospitality
+                                services, agriculture, and other vital sectors.
                             </p>
                         </div>
+
+                        <div class="about_info d-flex align-items-center  wow fadeInUp" data-wow-duration="1.9s"
+                            data-wow-delay=".9s">
+
+                            <a href="{{ route('contact.index') }}" class="btn-one"><span>Contact Us</span> <i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                            <span class="bor-left d-none d-sm-block mx-4"></span>
+
+                            <div class="info d-flex flex-wrap align-items-center">
+                                <i class="fa-solid fa-phone-volume ring-animation"></i>
+                                <div class="about_info_con">
+                                    <span class="d-block text-capitalize">call any time</span>
+                                    <a href="tel:+959 4258 47416">+959 4258 47416</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+
+
+    <section class="choose bg-image section-padding">
+        <div class="shape d-none d-xl-block float-bob-x">
+            <img src="{{ asset('assets/images/choose/shape.png') }}" alt="">
+        </div>
+        <div class="container">
+            <div class="row mb-5 mb-lg-0 ">
+                <div class="col-lg-6">
+                    <div class="section-header">
+                        <h5 class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay=".3s">CORE FEATURES</h5>
+                        <h2 class="wow fadeInUp" data-wow-duration="1.6s" data-wow-delay=".6s">Why Choose Us</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <p class="wow fadeInUp" data-wow-duration="1.9s" data-wow-delay=".9s">
+                        We consider our clients’ tasks as one
+                        of our own, therefore we doing our best to satisfy all expectations.
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-xl-3 col-lg-6 col-md-6">
+                    <div class="item">
+                        <img src="{{ asset('assets/images/icon/choose1.png') }}" alt="icon">
+                        <h4>Expert Teams</h4>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6">
+                    <div class="item">
+                        <img src="{{ asset('assets/images/icon/choose2.png') }}" alt="icon">
+                        <h4>Commit to Clients</h4>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6">
+                    <div class="item">
+                        <img src="{{ asset('data/lightbulb.png') }}" alt="icon" style="width: 40%;">
+                        <h4>Innovation</h4>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6">
+                    <div class="item">
+                        <img src="{{ asset('data/reputation-management.png') }}" alt="icon" style="width: 40%;">
+                        <h4>Reputation</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="story section-padding sub-bg">
+        <div class="container">
+            <div class="section-header text-center position-relative">
+                <h5 class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay=".3s">our case study</h5>
+                <h2 class="wow fadeInUp" data-wow-duration="1.6s" data-wow-delay=".6s">Cour recent work
+                </h2>
+            </div>
+            <div class="wrp">
+                <div class="line d-none d-lg-block"></div>
+                <div class="main-item pb-65">
+                    <div class="row g-5 align-items-center ">
+                        <div class="col-lg-6 d-flex justify-content-end">
+                            <img style="width: 40%;" src="{{ asset('data/monitoring.png') }}" alt="image">
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="item">
+                                <div class="title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".5s">
+                                    <span class="primary-color pb-2">
+                                        Shwe Wutt Hmone Kha Co.,Ltd
+                                    </span>
+                                    <h3 class="text-capitalize">
+                                        <a href="javascript::void(0)">
+                                            Our Vision
+                                        </a>
+                                    </h3>
+                                    <p class="pt-4">
+                                        To provide skillful Myanmar workers to all over the world according to the
+                                        international labour
+                                        standards and to be the most successful firm.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-item pb-65">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6">
+                            <div class="item">
+                                <div class="title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".5s">
+                                    <span class="primary-color left-span pb-2">
+                                        Shwe Wutt Hmone Kha Co.,Ltd
+                                    </span>
+                                    <h3 class="text-capitalize">
+                                        <a href="javascript::void(0)">
+                                            Our mission
+                                        </a>
+                                    </h3>
+                                    <p class="pt-4">
+                                        To establish a seamless connection between skilled Myanmar workers and world-class
+                                        companies situated in all over the world. Through this collaboration, we seek to
+                                        cultivate mutual
+                                        growth and prosperity for both parties involved.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <a href="javascript::void()" class="image d-block">
+                                <img style="width: 40%;" src="{{ asset('data/target.png') }}" alt="image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-item">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6 d-flex justify-content-end">
+                            <img style="width: 40%;" src="{{ asset('data/market.png') }}" alt="image">
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="item">
+                                <div class="title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".5s">
+                                    <span class="primary-color pb-2">
+                                        Shwe Wutt Hmone Kha Co.,Ltd
+                                    </span>
+                                    <h3 class="text-capitalize">
+                                        <a href="javascript::void(0)">
+                                            Values
+                                        </a>
+                                    </h3>
+                                    <p class="pt-4">
+                                        Our values underscore our commitment to excellence
+                                    </p>
+
+                                    <div class="row g-4 py-3">
+                                        <div class="col-6 wow fadeInLeft" data-wow-duration="1.6s" data-wow-delay=".6s">
+                                            <ul>
+                                                <li><i class="fa-solid mb-4 me-2 primary-color fa-gear"></i>
+                                                    Safety and Security
+                                                </li>
+                                                <li><i class="fa-solid  mb-4 me-2 primary-color fa-gear"></i>
+                                                    Customer Priority
+                                                </li>
+
+                                                <li><i class="fa-solid me-2 primary-color fa-gear"></i>
+                                                    Training Contribution
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-6 wow fadeInRight" data-wow-duration="1.6s" data-wow-delay=".6s">
+                                            <ul>
+                                                <li><i class="fa-solid mb-4 me-2 primary-color fa-gear"></i>
+                                                    Affordability
+                                                </li>
+                                                <li><i class="fa-solid me-2 primary-color fa-gear"></i>
+                                                    Service Excellence
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="video-area bg-2 bg-image section-padding" style="background-image: url({{ asset('data/obj.jpg') }})">
+        <div class="container">
+            <h2 class="pt-65 wow fadeInDown" data-wow-duration="1.9s" data-wow-delay=".3s">
+                Objectives
+            </h2>
+
+            <p style="color: white; font-size: 18px;">
+                Our central objective is to bridge the gap between Myanmar's skilled workforce and the global
+                business landscape. By sourcing and deploying highly skilled individuals, we aim to fulfill the
+                employment needs of various industries while actively combating unemployment challenges
+                within our country.
+            </p>
+        </div>
+    </section>
 @endsection

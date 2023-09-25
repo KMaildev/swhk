@@ -1,15 +1,13 @@
 <!-- Footer area start here -->
 <footer class="footer-one secondary-bg">
     <div class="map">
-        <img src="assets/images/footer/map.png" alt="">
+        <img src="{{ asset('assets/images/footer/map.png') }}" alt="">
     </div>
     <div class="container">
         <div
             class="footer_one_top position-relative d-flex flex-wrap align-items-center justify-content-between pt-65 pb-65">
             <div class="logo">
-                <a href="#0">
-                    <img src="assets/images/logo/footer-logo.svg" alt="logo">
-                </a>
+                <img src="{{ asset('data/logo_png.png') }}" alt="logo" style="width: 100px;">
             </div>
             <div class="social-icon mt-sm-0">
                 <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
@@ -20,38 +18,41 @@
         </div>
         <div class="bor-top position-relative">
             <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1.3s" data-wow-delay=".3s">
-                    <div class="item">
-                        <div class="title">
-                            <h4>About Company</h4>
-                        </div>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
+
+                <div class="col-lg-4 col-md-4 col-sm-12 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
                     <div class="item g-4">
                         <div class="title">
                             <h4>Official info</h4>
                         </div>
                         <ul>
-                            <li><a href="#0"><i class="fa-solid fa-location-dot pe-1 text-white"></i>
-                                    901 N Pitt Str., Suite 170
-                                    Alexandria, USA
+                            <li>
+                                <a href="#0">
+                                    <i class="fa-solid fa-location-dot pe-1 text-white"></i>
+                                    No.95, A1 Ground Floor, Bandoola Road, Yangon 11421
                                 </a>
-                                <a href="#0" class="map-popup">View Map <i
-                                        class="fa-solid fa-location-arrow"></i></a>
+
+                                <a href="https://maps.app.goo.gl/TgJhh6gVxbvU9pKRA" class="map-popup">View Map <i
+                                        class="fa-solid fa-location-arrow"></i>
+                                </a>
                             </li>
-                            <li><a href="tel:+4065550120"><i class="fa-solid fa-phone-volume pe-1 text-white"></i>
-                                    (406) 555-0120
-                                </a></li>
-                            <li><a href="#0"><i class="fa-solid fa-envelope pe-1 text-white"></i>
-                                    info@extrem.com</a>
+
+                            <li>
+                                <a href="tel:+959 4258 47416">
+                                    <i class="fa-solid fa-phone-volume pe-1 text-white"></i>
+                                    +959 4258 47416
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="mailto:info@shwewutthmonekha.com">
+                                    <i class="fa-solid fa-envelope pe-1 text-white"></i>
+                                    info@shwewutthmonekha.com</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1.7s" data-wow-delay=".5s">
+
+                <div class="col-lg-4 col-md-4 col-sm-12 wow fadeInUp" data-wow-duration="1.7s" data-wow-delay=".5s">
                     <div class="item">
                         <div class="title">
                             <h4>main menu</h4>
@@ -59,76 +60,73 @@
                         <div class="row g-2">
                             <div class="col-6">
                                 <ul>
-                                    <li><a href="#0">Home</a></li>
-                                    <li><a href="#0">About Us</a></li>
-                                    <li><a href="#0">Services</a></li>
-                                    <li><a href="#0">Our Projects</a></li>
+                                    <li>
+                                        <a href="{{ route('about.index') }}">
+                                            Company Introduction
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('history') }}">
+                                            Company History
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('md') }}">
+                                            Founder’s Message
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('team') }}">
+                                            Our Team Members
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="col-6">
                                 <ul>
-                                    <li><a href="#0">Career</a></li>
-                                    <li><a href="#0">Our Team</a></li>
-                                    <li><a href="#0">Latest News</a></li>
-                                    <li><a href="#0">Contact Us</a></li>
+                                    <li>
+                                        <a href="{{ route('service.index') }}">
+                                            Services
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript::void(0)">
+                                            Vocational Training School
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('csr.index') }}">
+                                            CSR
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="{{ route('contact.index') }}">
+                                            Contact Us
+                                        </a>
+                                    </li>
+
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1.9s" data-wow-delay=".6s">
+
+                <div class="col-lg-4 col-md-4 col-sm-12 wow fadeInUp" data-wow-duration="1.9s" data-wow-delay=".6s">
                     <div class="item gallery">
                         <div class="title">
-                            <h4>Company Gallery</h4>
+                            <h4>
+                                Facebook
+                            </h4>
                         </div>
                         <div class="row g-2">
-                            <div class="col-4">
-                                <a href="assets/images/footer/gallery1.png" class="footer-popup image d-block">
-                                    <img src="assets/images/footer/gallery1.png" alt="image">
-                                    <div class="icon">
-                                        <i class="fa-solid fa-plus"></i>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-4">
-                                <a href="assets/images/footer/gallery2.png" class="footer-popup image d-block">
-                                    <img src="assets/images/footer/gallery2.png" alt="image">
-                                    <div class="icon">
-                                        <i class="fa-solid fa-plus"></i>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-4">
-                                <a href="assets/images/footer/gallery3.png" class="footer-popup image d-block">
-                                    <img src="assets/images/footer/gallery3.png" alt="image">
-                                    <div class="icon">
-                                        <i class="fa-solid fa-plus"></i>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-4">
-                                <a href="assets/images/footer/gallery4.png" class="footer-popup image d-block">
-                                    <img src="assets/images/footer/gallery4.png" alt="image">
-                                    <div class="icon">
-                                        <i class="fa-solid fa-plus"></i>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-4">
-                                <a href="assets/images/footer/gallery5.png" class="footer-popup image d-block">
-                                    <img src="assets/images/footer/gallery5.png" alt="image">
-                                    <div class="icon">
-                                        <i class="fa-solid fa-plus"></i>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-4">
-                                <a href="assets/images/footer/gallery6.png" class="footer-popup image d-block">
-                                    <img src="assets/images/footer/gallery6.png" alt="image">
-                                    <div class="icon">
-                                        <i class="fa-solid fa-plus"></i>
-                                    </div>
-                                </a>
+                            <div class="col-12">
+
                             </div>
                         </div>
                     </div>
@@ -136,7 +134,10 @@
             </div>
         </div>
         <div class="copyright">
-            <p>Copyright <strong>Mistri</strong>. Design By <a href="#0">GramenTheme</a></p>
+            <p>
+                Copyright © {{ now()->year }}
+                Shwe Wutt Hmone Kha Co.,Ltd. All Rights Reserved.
+            </p>
         </div>
     </div>
 </footer>
