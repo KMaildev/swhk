@@ -2,19 +2,18 @@
 @section('title', 'About Us')
 @section('content')
 
-    <section class="page-banner bg-image section-padding"
-        style="background-image: url({{ asset('data/myanmar-featured-banner-section.jpg') }})">
+    <section class="page-banner bg-image section-padding" style="background-image: url({{ asset('data/about111.png') }})">
         <div class="gaps-right d-none d-sm-block float-bob-x">
             <img src="{{ asset('assets/images/shape/gaps-primary.png') }}" alt="">
         </div>
         <div class="gaps-left d-none d-sm-block float-bob-x">
             <img src="{{ asset('assets/images/shape/gaps-primary.png') }}" alt="">
         </div>
-        <div class="container">
-            <h2 class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay=".3s">About Us</h2>
+        <div class="container" style="color:black;">
+            <h2 class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay=".3s" style="color:black;">About Us</h2>
             <div class="breadcrumb-list wow fadeInUp" data-wow-duration="1.6s" data-wow-delay=".6s">
-                <a href="{{ route('home') }}">Home :</a>
-                <span>About Us</span>
+                <a href="{{ route('home') }}" style="color:black;">Home :</a>
+                <span style="color:black;">About Us</span>
             </div>
         </div>
     </section>
@@ -32,14 +31,17 @@
             <div class="row g-4">
                 <div class="col-lg-6">
                     <div class="image">
-
-                        <img src="{{ asset('data/sdagon.jpg') }}" alt="image" style="width: 100%;">
+                        <img src="{{ asset('data/sdagon.jpg') }}" alt="image" style="width:100%;">
                         <div class="sm-image d-none d-sm-block">
-                            <img src="{{ asset('data/logo_png.png') }}" alt="image">
+                            <img src="{{ asset('assets/data/about4.png') }}" alt="image">
                         </div>
-
+                        <div class="video-btn-wrp d-none d-sm-block">
+                            <div class="">
+                                <a class="video-popup secondary-bg" href=""><i class=""></i></a>
+                            </div>
+                        </div>
                         <div class="info d-none d-sm-block">
-                            <h2><span class="count">5</span>+</h2>
+                            <h2 style="color:#08AC61"><span class="count">5</span>+</h2>
                             <span>Years Experience</span>
                         </div>
                         <div class="stroke-text d-none d-sm-block">
@@ -47,21 +49,13 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-lg-6">
                     <div class="right-item">
                         <div class="section-header mb-5">
-
-
-                            {{-- <h2 style="font-size: 30px;" class="wow fadeInUp" data-wow-duration="1.6s" data-wow-delay=".6s">
-                                Shwe Wutt Hmone Kha Co.,Lt
-                            </h2> --}}
-
                             <h5 style="padding-bottom: 5px;" class="wow fadeInUp" data-wow-duration="1.3s"
                                 data-wow-delay=".3s">
                                 Shwe Wutt Hmone Kha Co.,Ltd
                             </h5>
-
                             <h2 class="wow fadeInUp" data-wow-duration="1.6s" data-wow-delay=".6s">
                                 Succeed with us
                             </h2>
@@ -75,32 +69,49 @@
                             <h5 style="color: black;">
                                 Introduction
                             </h5>
-                            <p style="text-align: justify; margin-top: 0px;" class="wow fadeInUp" data-wow-duration="1.9s"
-                                data-wow-delay=".9s">
-                                Shwe Wutt Hmone Kha Co., Ltd (Overseas Myanmar Manpower Employment Agency) was
-                                founded in 2018, emerging as a distinguished and expertly managed international manpower
-                                recruitment consultant. With a core focus on Thailand, Malaysia, and Japan job markets, we
-                                deliver premium recruitment services to diverse industries. Drawing from our extensive
-                                recruitment experience, we cater to various employment levels as per our clients' demands
-                                across
+                            <p class="wow fadeInUp" data-wow-duration="1.9s" data-wow-delay=".9s">We have
+                                Shwe Wutt Hmone Kha Co., Ltd (Overseas Myanmar Manpower Employment Agency) was founded in
+                                2018, emerging as a distinguished and expertly managed international manpower recruitment
+                                consultant. With a core focus on Thailand, Malaysia, and Japan job markets, we deliver
+                                premium recruitment services to diverse industries. Drawing from our extensive recruitment
+                                experience, we cater to various employment levels as per our clients' demands across
                                 multiple sectors. These include poultry processing, food and beverages production, wood
                                 processing, plastics and rubber manufacturing, leather production, construction, hospitality
-                                services, agriculture, and other vital sectors.
-                            </p>
+                                services, agriculture, and other vital sectors.</p>
                         </div>
-
-                        <div class="about_info d-flex align-items-center  wow fadeInUp" data-wow-duration="1.9s"
+                        <div class="row g-4">
+                            <div class="col-6 wow fadeInLeft" data-wow-duration="1.6s" data-wow-delay=".6s">
+                                <ul>
+                                    <li><i class="fa-solid mb-4 me-2  fa-gear" style="color:#08AC61"></i> Best
+                                        Integrity
+                                        Support
+                                    </li>
+                                    <li><i class="fa-solid me-2 primary-color fa-gear"></i> Professional
+                                        Expertise
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6 wow fadeInRight" data-wow-duration="1.6s" data-wow-delay=".6s">
+                                <ul>
+                                    <li><i class="fa-solid mb-4 me-2 primary-color fa-gear"></i>
+                                        Respectful
+                                    </li>
+                                    <li><i class="fa-solid me-2 primary-color fa-gear"></i> Customer-Centricity
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="about_info d-flex align-items-center pt-65 wow fadeInUp" data-wow-duration="1.9s"
                             data-wow-delay=".9s">
-
-                            <a href="{{ route('contact.index') }}" class="btn-one"><span>Contact Us</span> <i
-                                    class="fa-solid fa-arrow-right"></i></a>
+                            <a href="{{ route('contact.index') }}" class="btn-one"
+                                style="background-color: #08AC61;"><span>Contact Us</span>
+                                <i class="fa-solid fa-arrow-right"></i></a>
                             <span class="bor-left d-none d-sm-block mx-4"></span>
-
                             <div class="info d-flex flex-wrap align-items-center">
-                                <i class="fa-solid fa-phone-volume ring-animation"></i>
+                                <i class="fa-solid fa-phone-volume ring-animation" style="color:#08AC61"></i>
                                 <div class="about_info_con">
                                     <span class="d-block text-capitalize">call any time</span>
-                                    <a href="tel:+959 4258 47416">+959 4258 47416</a>
+                                    <a href="tel: +959 4258 47416"> +959 4258 47416</a>
                                 </div>
                             </div>
                         </div>
@@ -109,7 +120,6 @@
             </div>
         </div>
     </section>
-
 
 
     <section class="choose bg-image section-padding">
@@ -173,7 +183,7 @@
                 <div class="main-item pb-65">
                     <div class="row g-5 align-items-center ">
                         <div class="col-lg-6 d-flex justify-content-end">
-                            <img style="width: 40%;" src="{{ asset('data/monitoring.png') }}" alt="image">
+                            <img style="width: 30%;" src="{{ asset('data/monitoring.png') }}" alt="image">
                         </div>
                         <div class="col-lg-6">
                             <div class="item">
@@ -221,7 +231,7 @@
                         </div>
                         <div class="col-lg-6">
                             <a href="javascript::void()" class="image d-block">
-                                <img style="width: 40%;" src="{{ asset('data/target.png') }}" alt="image">
+                                <img style="width: 30%;" src="{{ asset('data/target.png') }}" alt="image">
                             </a>
                         </div>
                     </div>
@@ -230,7 +240,7 @@
                 <div class="main-item">
                     <div class="row g-5 align-items-center">
                         <div class="col-lg-6 d-flex justify-content-end">
-                            <img style="width: 40%;" src="{{ asset('data/market.png') }}" alt="image">
+                            <img style="width: 30%;" src="{{ asset('data/market.png') }}" alt="image">
                         </div>
                         <div class="col-lg-6">
                             <div class="item">

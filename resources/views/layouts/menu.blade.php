@@ -1,179 +1,288 @@
-<header class="header">
-    <div class="header-top d-none d-md-block">
-        <div class="container">
-            <div class="header-top-wrp">
-                <ul class="info">
-                    <li>
-                        <i class="fa-solid fa-paper-plane"></i>
-                        <a href="#0">
-                            info@shwewutthmonekha.com
-                        </a>
-                    </li>
+<button class="scroll-top scroll-to-target" data-target="html">
+    <i class="far fa-angle-double-up"></i>
+</button>
 
-                    <li class="bor-left ms-4 ps-4">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <a href="#0">
-                            contact@shwewutthmonekha.com
-                        </a>
-                    </li>
-                </ul>
+<div class="tpoffcanvas-area">
+    <div class="tpoffcanvas">
+        <div class="tpoffcanvas__close-btn">
+            <button class="close-btn"><i class="fal fa-times"></i></button>
+        </div>
+        <div class="tpoffcanvas__logo">
+            <a href="index.html">
+                <img src="{{ asset('assets/img/logo/white-logo.png') }}" alt="">
+            </a>
+        </div>
+        <div class="tpoffcanvas__title">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima incidunt eaque a cumque, porro maxime
+                autem sed.</p>
+        </div>
+        <div class="tp-main-menu-mobile d-xl-none"></div>
+        <div class="tpoffcanvas__contact-info">
+            <div class="tpoffcanvas__contact-title">
+                <h5>Contact us</h5>
+            </div>
+            <ul>
+                <li>
+                    <i class="fa-light fa-location-dot"></i>
+                    <a href="https://www.google.com/maps/@23.8223586,90.3661283,15z" target="_blank">Melbone st,
+                        Australia, Ny 12099</a>
+                </li>
+                <li>
+                    <i class="fas fa-envelope"></i>
+                    <a
+                        href="https://template.wphix.com/cdn-cgi/l/email-protection#c0b3afaca1b2a5a4a7a580a7ada1a9aceea3afad"><span
+                            class="__cf_email__"
+                            data-cfemail="57233f323a322722253217303a363e3b7934383a">[email&#160;protected]</span></a>
+                </li>
+                <li>
+                    <i class="fal fa-phone-alt"></i>
+                    <a href="tel:+48555223224">+48 555 223 224</a>
+                </li>
+            </ul>
+        </div>
+        <div class="tpoffcanvas__input">
+            <div class="tpoffcanvas__input-title">
+                <h4>Get UPdate</h4>
+            </div>
+            <form action="#">
+                <div class="p-relative">
+                    <input type="text" placeholder="Enter mail">
+                    <button>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="tpoffcanvas__social">
+            <div class="social-icon">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="body-overlay"></div>
+<!-- tp-offcanvus-area-end -->
 
-                <ul class="link-info">
+<header class="tp-header-height">
 
-                    <li class="bor-right">
-                        <a href="#0">
-                            <i class="fa-brands fa-facebook-f">
-                            </i>
-                        </a>
-                    </li>
+    <div class="tp-header-top-2__area theme-bg tp-header-2__plr" >
+        <div class="tp-header-top-2__space">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-7 col-sm-7">
+                        <div class="tp-header-top-2__left-box text-center text-md-start">
+                            <a href="tel:+959 4258 47416">
+                                +959 4258 47416
+                            </a>
 
-                    <li class="bor-right">
-                        <a href="#0">
-                            <i class="fa-brands fa-twitter">
-                            </i>
-                        </a>
-                    </li>
+                            <a href="mailto:thai.contact@shwewutthmonekha.com">
+                                <svg width="15" height="12" viewBox="0 0 15 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.7536 7.63437C8.38042 7.91095 7.94694 8.05715 7.50001 8.05715C7.05312 8.05715 6.61964 7.91095 6.24646 7.63437L0.0998732 3.07875C0.0657716 3.05348 0.0325489 3.02713 0 3.00003V10.4649C0 11.3208 0.624757 12 1.38085 12H13.6191C14.389 12 15 11.3055 15 10.4649V3C14.9674 3.02716 14.9341 3.05358 14.8999 3.07888L8.7536 7.63437Z"
+                                        fill="white" />
+                                    <path
+                                        d="M0.587402 2.54786L6.73397 6.76079C6.96665 6.92027 7.23331 7 7.49997 7C7.76666 7 8.03335 6.92024 8.26603 6.76079L14.4126 2.54786C14.7804 2.29591 15 1.87424 15 1.41914C15 0.636605 14.3808 0 13.6196 0H1.38038C0.619248 3.01194e-05 0 0.636635 0 1.41989C0 1.87424 0.219609 2.29591 0.587402 2.54786Z"
+                                        fill="white" />
+                                </svg>
 
-                    <li class="bor-right">
-                        <a href="#0">
-                            <i class="fa-brands fa-linkedin-in">
-                            </i>
-                        </a>
-                    </li>
+                                <span>
+                                    thai.contact@shwewutthmonekha.com
+                                </span>
+                            </a>
+                        </div>
+                    </div>
 
-                    <li>
-                        <a href="#0">
-                            <i class="fa-brands fa-youtube">
-                            </i>
-                        </a>
-                    </li>
-                </ul>
+                    <div class="col-xxl-4 col-xl-3 col-lg-6 col-md-5 col-sm-5 d-none d-sm-block">
+                        <div class="tp-header-top-2__right-box text-end">
+                            <ul>
+                                <li>
+                                    <div class="tp-header-top-2__social-box text-end">
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="tp-header-top-2__value d-none d-md-block">
+                                        <ul>
+                                            <li>
+                                                <a id="tp-header-top-2__value-toogle" href="javascript:void(0)">
+                                                    USD
+                                                    <span>
+                                                        <svg width="9" height="6" viewBox="0 0 9 6"
+                                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M8.37213 0.917894L8.11008 0.638679C8.02761 0.55148 7.91788 0.503441 7.80061 0.503441C7.68341 0.503441 7.57355 0.55148 7.49108 0.638679L4.50179 3.80193L1.50905 0.635169C1.42671 0.54797 1.31685 0.5 1.19965 0.5C1.08244 0.5 0.972524 0.54797 0.890117 0.635169L0.628001 0.912663C0.457333 1.09312 0.457333 1.38706 0.628001 1.56752L4.19122 5.35148C4.27356 5.43861 4.38328 5.5 4.50153 5.5H4.50289C4.62016 5.5 4.72989 5.43854 4.81223 5.35148L8.37213 1.57777C8.4546 1.49064 8.49987 1.37103 8.5 1.24701C8.5 1.12292 8.4546 1.00496 8.37213 0.917894Z"
+                                                                fill="white" />
+                                                        </svg>
+
+                                                    </span>
+                                                </a>
+                                                <ul class="tp-header-top-2__value-submenu">
+                                                    <li>
+                                                        <a href="#">USD</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">YEAN</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">EURO</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="header-section">
-        <div class="container">
-            <div class="header-wrapper">
+    <!-- tp-header-area-start -->
+    <div id="header-sticky" class="tp-header-2__area tp-header-2__space tp-header-2__plr" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;">
+        <div class="container-fluid">
+            <div class="row align-items-center">
 
-                <div class="logo-menu" style="max-width: 200px;">
-                    <a href="{{ route('home') }}" class="logo">
-                        <img src="{{ asset('data/logo.jpg') }}" alt="logo">
-                    </a>
-                </div>
-
-                <div class="header-bar d-xl-none">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-
-                <ul class="main-menu">
-
-                    <li>
+                <div class="col-xl-2 col-lg-6 col-md-4 col-6">
+                    <div class="tp-header-2__logo">
                         <a href="{{ route('home') }}">
-                            Home
+                            <img src="{{ asset('data/logo.jpg') }}" alt="" style="width: 100%;">
                         </a>
-                    </li>
+                    </div>
+                </div>
 
-                    <li>
-                        <a href="javascript::void(0)">
-                            About Us
-                            <i class="fas fa-chevron-down"></i>
-                        </a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="{{ route('about.index') }}">
-                                    Company Introduction
-                                </a>
-                            </li>
+                <div class="col-xl-10 d-none d-xl-block">
+                    <div class="tp-header-2__main-menu tp-header__main-menu">
+                        <nav class="tp-main-menu-content">
+                            <ul>
 
-                            <li>
-                                <a href="{{ route('history') }}">
-                                    Company History
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="{{ route('md') }}">
-                                    Founder’s Message
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="{{ route('team') }}">
-                                    Our Team Members
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li>
-                        <a href="javascript::void(0)">
-                            Our Network
-                            <i class="fas fa-chevron-down"></i>
-                        </a>
-                        <ul class="sub-menu">
-                            @foreach ($countries as $country)
                                 <li>
-                                    <a href="{{ route('job.show', $country->id) }}">
-                                        {{ $country->country ?? '' }}
+                                    <a href="{{ route('home') }}">
+                                        Home
                                     </a>
                                 </li>
-                            @endforeach
-                        </ul>
-                    </li>
+
+                                <li class="has-dropdown">
+                                    <a href="javascript::void(0)">
+                                        About Us
+                                    </a>
+                                    <ul class="submenu tp-submenu">
+                                        <li>
+                                            <a href="{{ route('about.index') }}">
+                                                Company Introduction
+                                            </a>
+                                        </li>
+
+                                        <li hidden>
+                                            <a href="{{ route('history') }}">
+                                                Company History
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="{{ route('md') }}">
+                                                Founder’s Message
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="{{ route('team') }}">
+                                                Our Team Members
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="has-dropdown">
+                                    <a href="javascript::void(0)">
+                                        Our Network
+                                    </a>
+                                    <ul class="submenu tp-submenu">
+                                        @foreach ($countries as $country)
+                                            <li>
+                                                <a href="{{ route('job.show', $country->id) }}">
+                                                    {{ $country->country ?? '' }}
+                                                </a>
+                                            </li>
+                                        @endforeach
+                                    </ul>
+                                </li>
 
 
-                    <li>
-                        <a href="javascript::void(0)">
-                            Our Services
-                            <i class="fas fa-chevron-down"></i>
-                        </a>
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="{{ route('service.index') }}">
-                                    Services
-                                </a>
-                            </li>
+                                <li class="has-dropdown">
+                                    <a href="javascript::void(0)">
+                                        Services
+                                    </a>
+                                    <ul class="submenu tp-submenu">
+                                        <li>
+                                            <a href="{{ route('service.index') }}">
+                                                Services
+                                            </a>
+                                        </li>
 
-                            <li>
-                                <a href="javascript::void(0)">
-                                    Vocational Training School
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
+                                        <li>
+                                            <a href="javascript::void(0)">
+                                                Vocational Training School
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
 
-                    <li>
-                        <a href="{{ route('csr.index') }}">
-                            CSR
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="javascript::void(0)">
-                            Labors Journey
-                            <i class="fas fa-chevron-down"></i>
-                        </a>
-                        <ul class="sub-menu">
-                            @foreach ($categories as $category)
                                 <li>
-                                    <a href="{{ route('activities.show', $category->id) }}">
-                                        {{ $category->title ?? '' }}
+                                    <a href="{{ route('csr.index') }}">
+                                        CSR
                                     </a>
                                 </li>
-                            @endforeach
-                        </ul>
-                    </li>
 
-                    <li>
-                        <a href="{{ route('contact.index') }}">
-                            Contact Us
-                        </a>
-                    </li>
-                </ul>
+                                <li class="has-dropdown">
+                                    <a href="javascript::void(0)">
+                                        Labors Journey
+                                    </a>
+                                    <ul class="submenu tp-submenu">
+                                        @foreach ($categories as $category)
+                                            <li>
+                                                <a href="{{ route('activities.show', $category->id) }}">
+                                                    {{ $category->title ?? '' }}
+                                                </a>
+                                            </li>
+                                        @endforeach
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <a href="{{ route('contact.index') }}">
+                                        Contact Us
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-6 col-md-8 col-6">
+                    <div class="tp-header-2__right-box text-end">
+                        <ul>
+                            <li class="d-xl-none">
+                                <div class="tp-header-2__bar">
+                                    <button class="tp-menu-bar">
+                                        <i class="fa-solid fa-bars"></i>
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
+    <!-- tp-header-area-end -->
 </header>

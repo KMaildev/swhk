@@ -2,7 +2,7 @@
 @section('title', 'Founder’s Message')
 @section('content')
 
-    <section class="page-banner bg-image section-padding" style="background-image: url({{ asset('data/md_bg.jpg') }})">
+    <section class="page-banner bg-image section-padding" style="background-image: url({{ asset('data/md_banner.png') }})">
         <div class="gaps-right d-none d-sm-block float-bob-x">
             <img src="{{ asset('assets/images/shape/gaps-primary.png') }}" alt="">
         </div>
@@ -10,10 +10,10 @@
             <img src="{{ asset('assets/images/shape/gaps-primary.png') }}" alt="">
         </div>
         <div class="container">
-            <h2 class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay=".3s">Our Team Members</h2>
+            <h2 class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay=".3s" style="color:black;">Our Team Members</h2>
             <div class="breadcrumb-list wow fadeInUp" data-wow-duration="1.6s" data-wow-delay=".6s">
-                <a href="{{ route('home') }}">Home :</a>
-                <span>Our Team Members</span>
+                <a href="{{ route('home') }}" style="color:black;">Home :</a>
+                <span style="color:black;">Our Team Members</span>
             </div>
         </div>
     </section>

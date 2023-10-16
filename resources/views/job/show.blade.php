@@ -66,7 +66,7 @@
 
             <div class="row g-4">
                 @foreach ($jobs as $job)
-                    <div class="col-xl-3 col-lg-6 wow fadeInUp" data-wow-duration="1.3s" data-wow-delay=".3s">
+                    <div class="col-xl-4 col-lg-6 wow fadeInUp" data-wow-duration="1.3s" data-wow-delay=".3s">
                         <div class="item">
                             <h3 style="font-size: 20px;">
                                 <a href="javascript::void(0)">
