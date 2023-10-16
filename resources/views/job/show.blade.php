@@ -6,10 +6,11 @@
         <div class="tp-cta-4__bg fix p-relative">
             
             <div class="tp-cta-4__shape-1 d-none d-lg-block">
-                <img src="{{ asset('assets/img/cta/cta-4-1.png') }}" alt="">
+                <img src="{{ asset('data/cta-4-1 (1).png') }}" alt="" style="width: 90%;">
             </div>
-            <div class="tp-cta-4__shape-6 d-none d-xl-block">
-                <img src="{{ asset('assets/img/cta/cta-4-5.png') }}" alt="">
+
+            <div class="tp-cta-4__shape-6 d-none d-xl-block" style="right: -0%; top: 30%;">
+                <img src="{{ asset('data/job-offer.png') }}" alt="" style="width: 30%; float: right">
             </div>
 
             <div class="tp-cta-4__shape-3 d-none d-lg-block">
@@ -18,6 +19,7 @@
             <div class="tp-cta-4__shape-4 d-none d-lg-block">
                 <img src="{{ asset('assets/img/cta/cta-4-4.png') }}" alt="">
             </div>
+
             <div class="container custom-container-3">
                 <div class="row">
                     <div class="col-xl-12">
@@ -108,6 +110,7 @@
                                 <div class="nav nav-tab justify-content-center" id="nav-tab" role="tablist">
                                     @foreach ($countries as $c)
                                         <a href="{{ route('job.show', $c->id) }}" class="tp-main-btn" style="margin: 10px;">
+                                            <i class="fa fa-flag"></i>
                                             {{ $c->country ?? '' }}
                                         </a>
                                     @endforeach

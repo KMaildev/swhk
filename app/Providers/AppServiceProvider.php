@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Models\Activitie;
 use App\Models\Category;
 use App\Models\Country;
 use App\Models\Job;
@@ -34,6 +35,9 @@ class AppServiceProvider extends ServiceProvider
 
         $jobs_lists = Job::latest()->take(6)->get();
         view()->share('jobs_lists', $jobs_lists);
+
+        $footer_activities = Activitie::all();
+        view()->share('footer_activities', $footer_activities);
 
     }
 }

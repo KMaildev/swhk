@@ -422,7 +422,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-main-btn::before {
   position: absolute;
   content: "";
-  background: linear-gradient(93.19deg, #FF4D8D 15.64%, #507EFB 84.55%);
+  background: linear-gradient(93.19deg, #FBD311 15.64%, #0C9957 84.55%);
   border-radius: 32px;
   width: 98%;
   height: 98%;
@@ -496,7 +496,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
 .tp-btn-lg::before {
   position: absolute;
   content: "";
-  background: linear-gradient(93.19deg, #FF4D8D 15.64%, #507EFB 84.55%);
+  background: linear-gradient(93.19deg, #FBD311 15.64%, #0C9957 84.55%);
   border-radius: 32px;
   width: 98%;
   height: 98%;
@@ -525,7 +525,7 @@ input[type=text], input[type=email], input[type=tel], input[type=number], input[
   text-transform: capitalize;
   position: relative;
   transition: 0.3s;
-  background: linear-gradient(93.19deg, #FF4D8D 15.64%, #507EFB 84.55%);
+  background: linear-gradient(93.19deg, #FBD311 15.64%, #0C9957 84.55%);
   color: var(--tp-common-white);
 }
 @media (max-width: 767px) {
@@ -4125,7 +4125,7 @@ body .ui-tooltip {
   font-size: 15px;
   text-align: center;
   text-transform: capitalize;
-  background: linear-gradient(92.35deg, #FF4D8D 61.35%, #9C42EB 85.44%, #517EFB 99.89%);
+  background: linear-gradient(92.35deg, #FBD311 61.35%, #9C42EB 85.44%, #517EFB 99.89%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -9509,7 +9509,7 @@ body .ui-tooltip {
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .tp-catagori__item {
     padding: 20px 15px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
 }
 .tp-catagori__item:hover .tp-catagori__shape {
@@ -9517,7 +9517,7 @@ body .ui-tooltip {
   left: 16px;
 }
 .tp-catagori__item-text {
-  background: linear-gradient(102.69deg, #FF4E8E 40.81%, #6790F5 102.49%);
+  background: linear-gradient(102.69deg, #FBD311 40.81%, #0c9957 102.49%);
   border-radius: 2px;
   width: 85px;
   height: 25px;
@@ -9847,7 +9847,7 @@ body .ui-tooltip {
   transition: 0.3s;
 }
 .tp-catagori-slider-dots .swiper-pagination-bullet-active {
-  background-color: #F15C92;
+  background-color: #fbd311;
 }
 .tp-catagori-slider-dots .swiper-pagination-bullet-active.swiper-pagination-bullet::after {
   opacity: 1;
@@ -15120,7 +15120,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 .tp-fea-product__thumb-text {
   border-radius: 40px;
-  background: #FF111F;
+  background: #0D9A58;
   position: absolute;
   top: 10px;
   left: 10px;
@@ -15373,7 +15373,7 @@ p.checkout-coupon input[type=text]:focus {
   }
 }
 .tp-best-product-4__left-box {
-  background: linear-gradient(to bottom right, #FF4D8D 15.64%, #507EFB 84.55%);
+  background: linear-gradient(to bottom right, #FBD311 15.64%, #0C9957 84.55%);
   padding: 45px 40px;
   padding-bottom: 65px;
 }
@@ -15892,7 +15892,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 .tp-trend-product-5__thumb-text {
   border-radius: 3px;
-  background: #FF111F;
+  background: #0D9A58;
   position: absolute;
   top: 10px;
   left: 10px;
@@ -16059,7 +16059,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 .tp-new-product-5__thumb-text {
   border-radius: 15px;
-  background: #FF111F;
+  background: #0D9A58;
   position: absolute;
   top: 10px;
   left: 10px;
@@ -17149,7 +17149,7 @@ p.checkout-coupon input[type=text]:focus {
   color: var(--tp-common-white);
 }
 .tp-business__content.active .tp-business__number span::after {
-  background: linear-gradient(166.19deg, #F15C92 5.02%, #9364D6 56.44%, #6790F5 90.14%);
+  background: linear-gradient(166.19deg, #fbd311 5.02%, #9364D6 56.44%, #6790F5 90.14%);
 }
 .tp-business__number span {
   font-weight: 500;
@@ -17407,7 +17407,7 @@ p.checkout-coupon input[type=text]:focus {
 .tp-testimonial__author-info span b {
   font-weight: 400;
   font-size: 16px;
-  color: #F15C92;
+  color: #fbd311;
 }
 .tp-testimonial__content P {
   font-weight: 400;
@@ -17442,7 +17442,7 @@ p.checkout-coupon input[type=text]:focus {
   font-weight: 600;
   font-size: 18px;
   text-transform: uppercase;
-  color: #F15C92;
+  color: #fbd311;
   font-family: var(--tp-ff-heading);
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
@@ -18423,7 +18423,7 @@ p.checkout-coupon input[type=text]:focus {
   }
 }
 .tp-slider-text-2__gradiant-bg {
-  background: linear-gradient(90.33deg, #FF4D8D 49.71%, #9C42EB 82%, #4D81FB 100.53%);
+  background: linear-gradient(90.33deg, #FBD311 49.71%, #9C42EB 82%, #4D81FB 100.53%);
   height: 60px;
   line-height: 60px;
   transform: rotate(-6.13deg);
@@ -18655,7 +18655,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 
 .tp-cta-4__bg {
-  background: linear-gradient(148deg, #4951FF 0%, #A54AF5 55.19%, #FF2F7A 100%);
+  background: linear-gradient(148deg, #FED212 0%, #52aa2f 55.19%, #07AC60 100%);
   padding-top: 125px;
   padding-bottom: 145px;
 }
