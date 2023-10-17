@@ -2,19 +2,22 @@
     <i class="far fa-angle-double-up"></i>
 </button>
 
-<div class="tpoffcanvas-area">
-    <div class="tpoffcanvas">
+<div class="tpoffcanvas-area" >
+    <div class="tpoffcanvas" style="background-color: #2E2538">
         <div class="tpoffcanvas__close-btn">
             <button class="close-btn"><i class="fal fa-times"></i></button>
         </div>
-        <div class="tpoffcanvas__logo">
-            <a href="index.html">
-                <img src="{{ asset('assets/img/logo/white-logo.png') }}" alt="">
+        {{-- tpoffcanvas__logo --}}
+        <div class="">
+            <a href="{{ route('home') }}">
+                <img src="{{ asset('assets/data/swlogo.png') }}" alt="" style="width: 90%;">
             </a>
         </div>
         <div class="tpoffcanvas__title">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima incidunt eaque a cumque, porro maxime
-                autem sed.</p>
+            <p>
+                We have Shwe Wutt Hmone Kha Co., Ltd (Overseas Myanmar Manpower Employment Agency)
+                was founded in 2018,
+            </p>
         </div>
         <div class="tp-main-menu-mobile d-xl-none"></div>
         <div class="tpoffcanvas__contact-info">
@@ -24,51 +27,37 @@
             <ul>
                 <li>
                     <i class="fa-light fa-location-dot"></i>
-                    <a href="https://www.google.com/maps/@23.8223586,90.3661283,15z" target="_blank">Melbone st,
-                        Australia, Ny 12099</a>
-                </li>
-                <li>
-                    <i class="fas fa-envelope"></i>
-                    <a
-                        href="https://template.wphix.com/cdn-cgi/l/email-protection#c0b3afaca1b2a5a4a7a580a7ada1a9aceea3afad"><span
-                            class="__cf_email__"
-                            data-cfemail="57233f323a322722253217303a363e3b7934383a">[email&#160;protected]</span></a>
+                    <a href="javascript::void(0)">
+                        No.95, A1 Ground Floor,
+                        Bandoola Road, Yangon 11421
+                    </a>
                 </li>
                 <li>
                     <i class="fal fa-phone-alt"></i>
-                    <a href="tel:+48555223224">+48 555 223 224</a>
+                    <a href="tel:+959 4258 47416">
+                        +959 4258 47416
+                    </a>
                 </li>
             </ul>
         </div>
-        <div class="tpoffcanvas__input">
-            <div class="tpoffcanvas__input-title">
-                <h4>Get UPdate</h4>
-            </div>
-            <form action="#">
-                <div class="p-relative">
-                    <input type="text" placeholder="Enter mail">
-                    <button>
-                        <i class="fas fa-paper-plane"></i>
-                    </button>
-                </div>
-            </form>
-        </div>
+        
         <div class="tpoffcanvas__social">
             <div class="social-icon">
                 <a href="#"><i class="fab fa-twitter"></i></a>
                 <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100067013401097&mibextid=LQQJ4d" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-pinterest-p"></i></a>
             </div>
         </div>
     </div>
 </div>
+
 <div class="body-overlay"></div>
 <!-- tp-offcanvus-area-end -->
 
 <header class="tp-header-height">
 
-    <div class="tp-header-top-2__area theme-bg tp-header-2__plr" >
+    <div class="tp-header-top-2__area theme-bg tp-header-2__plr">
         <div class="tp-header-top-2__space">
             <div class="container-fluid">
                 <div class="row align-items-center">
@@ -101,7 +90,7 @@
                             <ul>
                                 <li>
                                     <div class="tp-header-top-2__social-box text-end">
-                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="https://www.facebook.com/profile.php?id=100067013401097&ref=embed_page" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
                                         <a href="#"><i class="fa-brands fa-twitter"></i></a>
                                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
                                         <a href="#"><i class="fa-brands fa-youtube"></i></a>
@@ -112,7 +101,7 @@
                                         <ul>
                                             <li>
                                                 <a id="tp-header-top-2__value-toogle" href="javascript:void(0)">
-                                                    USD
+                                                    English
                                                     <span>
                                                         <svg width="9" height="6" viewBox="0 0 9 6"
                                                             fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -123,15 +112,13 @@
 
                                                     </span>
                                                 </a>
+
                                                 <ul class="tp-header-top-2__value-submenu">
                                                     <li>
-                                                        <a href="#">USD</a>
+                                                        <a href="{{ route('home') }}">English</a>
                                                     </li>
                                                     <li>
-                                                        <a href="#">YEAN</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">EURO</a>
+                                                        <a href="#">Japan</a>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -147,19 +134,20 @@
     </div>
 
     <!-- tp-header-area-start -->
-    <div id="header-sticky" class="tp-header-2__area tp-header-2__space tp-header-2__plr" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;">
+    <div id="header-sticky" class="tp-header-2__area tp-header-2__space tp-header-2__plr"
+        style="box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;">
         <div class="container-fluid">
             <div class="row align-items-center">
 
-                <div class="col-xl-2 col-lg-6 col-md-4 col-6">
-                    <div class="tp-header-2__logo">
+                <div class="col-xl-3 col-lg-6 col-md-4 col-6">
+                    <div class="tp-header-">
                         <a href="{{ route('home') }}">
-                            <img src="{{ asset('data/logo.jpg') }}" alt="" style="width: 100%;">
+                            <img src="{{ asset('data/logo.jpg') }}" alt="" style="width: 70%;">
                         </a>
                     </div>
                 </div>
 
-                <div class="col-xl-10 d-none d-xl-block">
+                <div class="col-xl-9 d-none d-xl-block">
                     <div class="tp-header-2__main-menu tp-header__main-menu">
                         <nav class="tp-main-menu-content">
                             <ul>
@@ -267,7 +255,7 @@
                     </div>
                 </div>
 
-                <div class="col-xl-3 col-lg-6 col-md-8 col-6">
+                <div class="col-xl-2 col-lg-6 col-md-8 col-6">
                     <div class="tp-header-2__right-box text-end">
                         <ul>
                             <li class="d-xl-none">

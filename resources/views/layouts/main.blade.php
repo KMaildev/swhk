@@ -5,11 +5,13 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Shwe Wutt Hmone Kha Co.,Ltd - @yield('title')</title>
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Place favicon.ico in the root directory -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/logo/favicon.png') }}">
+    <meta name="keywords" content="Shwe Wutt Hmone Kha Co.,Ltd" />
+    <meta name="author" content="Shwe Wutt Hmone Kha Co.,Ltd" />
+    <meta name="robots" content="Shwe Wutt Hmone Kha Co.,Ltd" />
+    <meta name="description" content="Shwe Wutt Hmone Kha Co.,Ltd" />
+    <link rel="shortcut icon" href="{{ asset('data/logo.jpg') }}" />
 
     <!-- CSS here -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">

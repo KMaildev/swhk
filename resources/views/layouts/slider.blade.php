@@ -1,67 +1,375 @@
-<div class="tp-hero-2__wrapper fix p-relative">
-    <div class="scroll-bg d-none d-sm-block">
-        <img src="{{ asset('assets/img/hero/white-bg.png') }}" alt="">
-    </div>
-    <div class="tp-hero-2__mouse-scroll smooth d-none d-sm-block">
-        <a class="mouse-scroll-btn" href="#process"></a>
-        <span>Scroll Down</span>
-    </div>
-    <div class="tp-hero-2__area">
-        <div class="tp-hero-2__bg p-relative" data-background="{{ asset('assets/img/hero/hero-bg-2-1.png') }}">
-            <div class="tp-hero-2__shape-1 d-none d-xl-block">
-                <img src="{{ asset('assets/img/hero/hero-shape-2-1.png') }}" alt="">
+<body style="padding:0px; margin:0px; background-color:#fff;font-family:arial,helvetica,sans-serif,verdana,'Open Sans'">
+    <script src="{{ asset('assets/js/jssor.slider-28.1.0.min.js') }}" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        window.jssor_1_slider_init = function() {
+
+            var jssor_1_SlideoTransitions = [
+                [{
+                    b: -1,
+                    d: 1,
+                    ls: 0.5
+                }, {
+                    b: 0,
+                    d: 1000,
+                    y: 5,
+                    e: {
+                        y: 6
+                    }
+                }],
+                [{
+                    b: -1,
+                    d: 1,
+                    ls: 0.5
+                }, {
+                    b: 200,
+                    d: 1000,
+                    y: 25,
+                    e: {
+                        y: 6
+                    }
+                }],
+                [{
+                    b: -1,
+                    d: 1,
+                    ls: 0.5
+                }, {
+                    b: 400,
+                    d: 1000,
+                    y: 45,
+                    e: {
+                        y: 6
+                    }
+                }],
+                [{
+                    b: -1,
+                    d: 1,
+                    ls: 0.5
+                }, {
+                    b: 600,
+                    d: 1000,
+                    y: 65,
+                    e: {
+                        y: 6
+                    }
+                }],
+                [{
+                    b: -1,
+                    d: 1,
+                    ls: 0.5
+                }, {
+                    b: 800,
+                    d: 1000,
+                    y: 85,
+                    e: {
+                        y: 6
+                    }
+                }],
+                [{
+                    b: -1,
+                    d: 1,
+                    ls: 0.5
+                }, {
+                    b: 500,
+                    d: 1000,
+                    y: 195,
+                    e: {
+                        y: 6
+                    }
+                }],
+                [{
+                    b: 0,
+                    d: 2000,
+                    y: 30,
+                    e: {
+                        y: 3
+                    }
+                }],
+                [{
+                    b: -1,
+                    d: 1,
+                    rY: -15,
+                    tZ: 100
+                }, {
+                    b: 0,
+                    d: 1500,
+                    y: 30,
+                    o: 1,
+                    e: {
+                        y: 3
+                    }
+                }],
+                [{
+                    b: -1,
+                    d: 1,
+                    rY: -15,
+                    tZ: -100
+                }, {
+                    b: 0,
+                    d: 1500,
+                    y: 100,
+                    o: 0.8,
+                    e: {
+                        y: 3
+                    }
+                }],
+                [{
+                    b: 500,
+                    d: 1500,
+                    o: 1
+                }],
+                [{
+                    b: 0,
+                    d: 1000,
+                    y: 380,
+                    e: {
+                        y: 6
+                    }
+                }],
+                [{
+                    b: 300,
+                    d: 1000,
+                    x: 80,
+                    e: {
+                        x: 6
+                    }
+                }],
+                [{
+                    b: 300,
+                    d: 1000,
+                    x: 330,
+                    e: {
+                        x: 6
+                    }
+                }],
+                [{
+                    b: -1,
+                    d: 1,
+                    r: -110,
+                    sX: 5,
+                    sY: 5
+                }, {
+                    b: 0,
+                    d: 2000,
+                    o: 1,
+                    r: -20,
+                    sX: 1,
+                    sY: 1,
+                    e: {
+                        o: 6,
+                        r: 6,
+                        sX: 6,
+                        sY: 6
+                    }
+                }],
+                [{
+                    b: 0,
+                    d: 600,
+                    x: 150,
+                    o: 0.5,
+                    e: {
+                        x: 6
+                    }
+                }],
+                [{
+                    b: 0,
+                    d: 600,
+                    x: 1140,
+                    o: 0.6,
+                    e: {
+                        x: 6
+                    }
+                }],
+                [{
+                    b: -1,
+                    d: 1,
+                    sX: 5,
+                    sY: 5
+                }, {
+                    b: 600,
+                    d: 600,
+                    o: 1,
+                    sX: 1,
+                    sY: 1,
+                    e: {
+                        sX: 3,
+                        sY: 3
+                    }
+                }]
+            ];
+
+            var jssor_1_options = {
+                $AutoPlay: 1,
+                $LazyLoading: 1,
+                $CaptionSliderOptions: {
+                    $Class: $JssorCaptionSlideo$,
+                    $Transitions: jssor_1_SlideoTransitions
+                },
+                $ArrowNavigatorOptions: {
+                    $Class: $JssorArrowNavigator$
+                },
+                $BulletNavigatorOptions: {
+                    $Class: $JssorBulletNavigator$,
+                    $SpacingX: 20,
+                    $SpacingY: 20
+                }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 1600;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                } else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,regular,italic,700,700italic&subset=latin-ext,greek-ext,cyrillic-ext,greek,vietnamese,latin,cyrillic"
+        rel="stylesheet" type="text/css" />
+
+    <style>
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+
+        /*jssor slider bullet skin 132 css*/
+        .jssorb132 {
+            position: absolute;
+        }
+
+        .jssorb132 .i {
+            position: absolute;
+            cursor: pointer;
+        }
+
+        .jssorb132 .i .b {
+            fill: #fff;
+            fill-opacity: 0.8;
+            stroke: #000;
+            stroke-width: 1600;
+            stroke-miterlimit: 10;
+            stroke-opacity: 0.7;
+        }
+
+        .jssorb132 .i:hover .b {
+            fill: #000;
+            fill-opacity: .7;
+            stroke: #fff;
+            stroke-width: 2000;
+            stroke-opacity: 0.8;
+        }
+
+        .jssorb132 .iav .b {
+            fill: #000;
+            stroke: #fff;
+            stroke-width: 2400;
+            fill-opacity: 0.8;
+            stroke-opacity: 1;
+        }
+
+        .jssorb132 .i.idn {
+            opacity: 0.3;
+        }
+
+        .jssora051 {
+            display: block;
+            position: absolute;
+            cursor: pointer;
+        }
+
+        .jssora051 .a {
+            fill: none;
+            stroke: #fff;
+            stroke-width: 360;
+            stroke-miterlimit: 10;
+        }
+
+        .jssora051:hover {
+            opacity: .8;
+        }
+
+        .jssora051.jssora051dn {
+            opacity: .5;
+        }
+
+        .jssora051.jssora051ds {
+            opacity: .3;
+            pointer-events: none;
+        }
+    </style>
+
+    <svg viewbox="0 0 0 0" width="0" height="0" style="display:block;position:relative;left:0px;top:0px;">
+        <defs>
+            <filter id="jssor_1_flt_1" x="-50%" y="-50%" width="200%" height="200%">
+                <feGaussianBlur stddeviation="4"></feGaussianBlur>
+            </filter>
+            <radialGradient id="jssor_1_grd_2">
+                <stop offset="0" stop-color="#fff"></stop>
+                <stop offset="1" stop-color="#000"></stop>
+            </radialGradient>
+            <mask id="jssor_1_msk_3">
+                <path fill="url(#jssor_1_grd_2)" d="M600,0L600,400L0,400L0,0Z" x="0" y="0"
+                    style="position:absolute;overflow:visible;"></path>
+            </mask>
+        </defs>
+    </svg>
+
+    <div id="jssor_1"
+        style="position:relative;margin:0 auto;top:0px;left:0px;width:1600px;height:800px;overflow:hidden;visibility:hidden;">
+
+        <div data-u="slides"
+            style="cursor:default;position:relative;top:0px;left:0px;width:1600px;height:800px;overflow:hidden;">
+            
+            <div>
+                <img data-u="image" data-src="{{ asset('data/slider/16.jpg') }}" />
             </div>
-            <div class="tp-hero-2__shape-2 d-none d-xxl-block">
-                <img src="{{ asset('assets/img/hero/hero-shape-2-2.png') }}" alt="">
+
+            <div>
+                <img data-u="image" data-src="{{ asset('data/slider/13.png') }}" />
             </div>
-            <div class="tp-hero-2__shape-3 d-none d-xxl-block">
-                <img src="{{ asset('assets/img/hero/hero-shape-2-3.png') }}" alt="">
+
+            <div>
+                <img data-u="image" data-src="{{ asset('data/slider/4.png') }}" />
             </div>
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-xl-6 col-lg-6">
-                        <div class="tp-hero-2__left-box z-index">
-                            <div class="tp-hero-2__section-box mb-35">
-                                <span class="tp-hero-2-subtitle wow tpfadeUp" data-wow-duration=".9s"
-                                    data-wow-delay=".3s">Digital printing Service</span>
-                                <h2 class="tp-hero-2-title wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
-                                    Create <span class="p-relative">Amazing
-                                        <span class="tp-slider-2-title-shape">
-                                            <svg width="243" height="4" viewBox="0 0 243 4" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M239.774 3.21678C240.518 3.21678 241.759 3.18881 242.504 3.24476C241.263 3.24476 240.022 3.27273 239.029 3.27273C238.533 3.32867 239.774 3.35664 240.27 3.38462C241.263 3.38462 242.255 3.38462 243 3.44056C242.255 3.46853 241.263 3.46853 240.27 3.46853C239.277 3.46853 238.036 3.44056 237.292 3.4965C238.036 3.52448 238.036 3.52448 238.036 3.58042C236.299 3.60839 236.299 3.77622 233.569 3.72028C232.576 3.72028 231.584 3.72028 230.591 3.72028C229.35 3.83217 227.861 3.94406 224.635 3.88811C223.642 3.91608 222.649 3.91608 221.657 3.88811C218.927 3.94406 216.197 3.91608 213.467 3.94406C213.219 3.97203 212.97 3.97203 212.722 3.94406C211.729 3.94406 210.737 3.94406 209.744 3.94406H209.496H209.248C208.255 3.94406 207.51 3.97203 206.518 3.94406C203.043 3.94406 199.321 3.94406 195.846 3.97203C193.612 3.97203 191.875 3.94406 190.634 3.86014H190.386H190.138C189.393 3.91608 189.642 4 187.16 4C184.678 3.97203 182.196 3.97203 179.466 3.97203C177.729 3.94406 175.992 4 174.255 3.97203C168.05 3.94406 161.846 3.94406 155.641 3.91608C150.181 3.91608 144.721 3.88811 139.261 3.86014C137.276 3.91608 135.29 3.86014 133.553 3.86014C123.626 3.83217 113.451 3.83217 103.524 3.74825C99.0564 3.72028 94.5892 3.74825 90.122 3.69231C86.1511 3.69231 82.4284 3.66434 78.4576 3.63636C69.2749 3.58042 60.0923 3.52448 51.1579 3.41259C47.4352 3.41259 43.9607 3.38462 40.7344 3.3007C35.5227 3.3007 30.5591 3.21678 25.8437 3.13287C25.0992 3.13287 24.6028 3.1049 24.1065 3.1049C22.121 3.13287 20.632 3.07692 18.8947 3.02098C17.6538 3.02098 16.6611 2.99301 15.9166 2.96504C15.172 2.93706 14.4275 2.93706 13.683 2.90909C12.9384 2.85315 11.6975 2.85315 10.4566 2.85315C8.47119 2.7972 5.98943 2.76923 5.49306 2.62937C1.77039 2.6014 0.777664 2.48951 1.02585 2.34965C-0.463226 2.18182 -0.215057 2.01399 1.02585 1.84615C1.02585 1.76224 1.02585 1.67832 1.02585 1.59441V1.56643C0.52948 1.37063 3.25945 1.2028 2.51491 1.03497C2.26672 0.895105 3.75578 0.783217 4.7485 0.671329C4.7485 0.643357 4.74852 0.587413 5.74123 0.559441C5.98941 0.531469 6.73396 0.503497 7.72667 0.475525C8.96758 0.363636 10.4566 0.27972 12.9384 0.251748C13.4347 0.195804 14.4275 0.223776 15.172 0.223776C15.9165 0.195804 16.6611 0.167832 17.4056 0.13986C18.1501 0.111888 18.8947 0.111888 19.6392 0.111888C22.6174 0.0559441 25.5955 0.027972 28.8218 0.027972C30.0627 0.027972 31.0555 0.027972 32.2964 0.027972C32.7927 0.027972 33.5372 0.027972 34.0336 0C40.7344 0 47.6834 0 54.3843 0.027972C57.8588 0.027972 61.3332 0 64.8077 0.0839161C67.7859 0.0839161 71.2604 0.027972 74.4867 0.111888C75.2312 0.111888 75.9758 0.111888 76.4721 0.111888C78.7057 0.0839161 80.6912 0.0839161 82.9248 0.111888C88.3847 0.111888 93.8446 0.13986 99.0564 0.167832C100.794 0.167832 102.779 0.13986 104.268 0.195804C105.261 0.223776 106.254 0.223776 107.246 0.195804C110.473 0.195804 113.699 0.195804 116.925 0.223776C117.422 0.223776 117.918 0.223776 118.414 0.223776C119.655 0.251748 121.144 0.223776 122.385 0.251748C124.122 0.251748 126.108 0.251748 127.845 0.251748C129.334 0.251748 131.071 0.251748 132.312 0.27972C133.305 0.27972 134.298 0.27972 135.29 0.27972C137.276 0.27972 139.51 0.251748 141.495 0.307692C145.218 0.307692 148.94 0.335664 152.415 0.335664C158.371 0.335664 164.327 0.391608 170.284 0.41958C172.269 0.41958 174.006 0.41958 175.992 0.447553C174.255 0.447553 172.269 0.447553 170.532 0.447553C172.269 0.41958 174.255 0.41958 175.992 0.447553C179.218 0.447553 182.196 0.447553 185.174 0.503497C186.415 0.503497 187.656 0.503497 188.897 0.531469C189.145 0.531469 189.393 0.531469 189.642 0.531469C192.372 0.531469 195.102 0.559441 197.831 0.615385C200.313 0.615385 202.547 0.671329 204.78 0.699301C206.021 0.699301 207.262 0.699301 208.503 0.755245C210.737 0.783217 212.722 0.811189 213.467 0.895105C214.956 0.839161 215.949 0.895105 217.189 0.923077C218.43 0.979021 217.934 1.06294 219.423 1.11888C218.678 1.11888 217.934 1.11888 217.189 1.11888C217.438 1.14685 217.686 1.17483 217.934 1.17483C219.671 1.23077 221.408 1.25874 223.146 1.28671C223.394 1.28671 223.642 1.28671 223.89 1.28671C225.627 1.28671 227.613 1.25874 229.102 1.31469H229.35C229.35 1.31469 229.35 1.34266 229.102 1.34266C228.109 1.34266 227.117 1.34266 226.372 1.34266H226.124C227.365 1.31469 228.357 1.31469 229.102 1.34266C229.598 1.45455 228.109 1.48252 227.613 1.53846C227.861 1.56643 226.62 1.59441 227.613 1.62238C228.357 1.62238 229.598 1.59441 229.35 1.65035C229.102 1.70629 227.613 1.67832 226.868 1.67832C226.62 1.67832 226.372 1.70629 226.124 1.70629C228.109 1.79021 230.095 1.81818 232.08 1.87413C235.058 1.87413 236.299 1.98601 238.036 2.06993C238.533 2.0979 239.277 2.06993 239.525 2.0979C238.036 2.0979 238.781 2.18182 237.788 2.20979C234.314 2.26573 234.314 2.34965 237.54 2.46154C238.533 2.48951 240.518 2.51748 241.015 2.6014C241.015 2.62937 241.015 2.65734 241.015 2.65734C241.511 2.65734 242.007 2.65734 242.007 2.68531C241.759 2.74126 241.015 2.71329 240.27 2.71329C239.774 2.71329 239.029 2.71329 238.781 2.74126C239.277 2.82518 239.029 2.85315 237.54 2.85315C238.036 2.90909 239.525 2.88112 239.277 2.96504C240.022 2.96504 240.518 2.99301 241.263 2.99301C240.518 3.04895 239.029 2.99301 238.781 3.04895C239.525 3.1049 239.525 3.13287 238.285 3.1049C237.292 3.1049 236.051 3.07692 237.292 3.16084C238.036 3.16084 239.029 3.16084 239.774 3.21678ZM6.9821 1.48252C6.73392 1.48252 6.73393 1.48252 6.73393 1.51049C6.73393 1.48252 6.9821 1.48252 6.9821 1.48252ZM69.5231 1.9021C69.7713 1.93007 69.7713 1.9021 70.0195 1.9021C69.7713 1.9021 69.5231 1.9021 69.5231 1.9021ZM100.545 2.32168C100.297 2.32168 100.297 2.32168 100.545 2.32168V2.32168ZM79.6985 2.01399C79.6985 1.98601 79.6985 1.98601 79.6985 2.01399V2.01399ZM68.0341 2.54545C67.7859 2.54545 67.7859 2.54545 67.5377 2.51748C67.5377 2.51748 67.2895 2.51748 67.2895 2.54545C67.5377 2.54545 67.7859 2.54545 68.0341 2.54545ZM40.4862 2.18182C40.7344 2.15385 40.4862 2.15385 40.4862 2.18182V2.18182ZM80.6912 2.7972C80.9393 2.7972 80.9393 2.7972 80.6912 2.7972V2.7972ZM75.7276 2.71329C75.4794 2.71329 75.4794 2.74126 74.983 2.74126C75.2312 2.71329 75.4794 2.71329 75.7276 2.71329ZM28.5737 2.18182C28.5737 2.20979 28.5737 2.20979 28.5737 2.18182V2.18182ZM182.693 1.62238C182.693 1.62238 182.693 1.59441 182.444 1.62238C182.444 1.62238 182.444 1.62238 182.196 1.62238C182.444 1.62238 182.444 1.62238 182.693 1.62238ZM202.795 2.62937C202.795 2.6014 203.043 2.6014 203.043 2.57343C202.547 2.6014 202.547 2.6014 202.795 2.62937ZM144.721 3.02098C144.721 3.02098 144.473 3.02098 144.473 3.04895C144.721 3.04895 145.218 3.04895 145.466 3.04895C145.218 3.02098 144.969 3.02098 144.721 3.02098ZM160.357 1.45455C160.357 1.42657 160.357 1.42657 160.357 1.45455C160.357 1.42657 160.108 1.42657 160.357 1.45455ZM198.08 1.84615C198.328 1.84615 198.328 1.84615 198.08 1.84615C198.328 1.81818 198.576 1.81818 198.576 1.79021C198.328 1.79021 198.08 1.79021 197.831 1.79021C198.08 1.81818 198.08 1.81818 198.08 1.84615ZM195.35 1.37063C195.102 1.3986 195.102 1.3986 195.35 1.37063V1.37063ZM123.626 3.41259C123.626 3.44056 123.626 3.44056 123.378 3.46853C123.626 3.46853 123.874 3.46853 124.122 3.46853C123.874 3.44056 123.874 3.44056 123.626 3.41259ZM174.255 0.867133C174.503 0.867133 174.503 0.867133 174.751 0.867133C174.751 0.867133 174.503 0.867133 174.255 0.867133ZM101.538 0.531469C101.29 0.531469 101.29 0.531469 101.538 0.531469V0.531469ZM235.058 3.58042C236.051 3.52448 236.796 3.55245 237.788 3.58042C237.044 3.58042 236.051 3.58042 235.058 3.58042ZM132.809 0.335664C133.057 0.335664 133.305 0.335664 133.553 0.363636C133.057 0.335664 132.809 0.335664 132.809 0.335664Z"
-                                                    fill="url(#paint0_linear_156_53)" />
-                                                <defs>
-                                                    <linearGradient id="paint0_linear_156_53" x1="205.367"
-                                                        y1="4.37008e-06" x2="29.0419" y2="101.949"
-                                                        gradientUnits="userSpaceOnUse">
-                                                        <stop offset="0" stop-color="#EF5C92" />
-                                                        <stop offset="0.247843" stop-color="#A85CC5" />
-                                                        <stop offset="1" stop-color="#6698FB" />
-                                                    </linearGradient>
-                                                </defs>
-                                            </svg>
-                                        </span>
-                                    </span>
-                                    <br>
-                                    Print & Design
-                                </h2>
-                            </div>
-                            <div class="tp-hero-2__text wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
-                                <p>Beautiful, customizable template, with a ton of web blocks
-                                    to create an amazing website that looks</p>
-                                <a class="tp-btn-lg large" href="#">See Collection</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6">
-                        <div class="tp-hero-2__main-thumb">
-                            <img src="{{ asset('assets/img/hero/hero-2.png') }}" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
-</div>
+    <script type="text/javascript">
+        jssor_1_slider_init();
+    </script>
+</body>
